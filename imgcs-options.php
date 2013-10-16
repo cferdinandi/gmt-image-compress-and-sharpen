@@ -96,7 +96,7 @@ function imgcs_theme_options_render_page() {
 function imgcs_theme_options_add_page() {
     $theme_page = add_submenu_page(
         'options-general.php', // parent slug
-        'Image zip_entry_compressionmethod(zip_entry)', // Label in menu
+        'Image Compression', // Label in menu
         'Image Compression', // Label in menu
         'edit_theme_options', // Capability required
         'imgcs_theme_options', // Menu slug, used to uniquely identify the page
