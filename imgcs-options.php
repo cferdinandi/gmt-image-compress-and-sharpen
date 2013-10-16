@@ -181,7 +181,7 @@ function imgcs_get_compression_rate() {
 
 function imgcs_get_do_sharpen() {
     $options = imgcs_get_theme_options();
-    if ( $options['do_sharpen'] == on ) {
+    if ( $options['do_sharpen'] == 'on' ) {
         $setting = true;
     } else {
         $setting = false;
