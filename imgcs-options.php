@@ -26,7 +26,7 @@ function imgcs_settings_field_do_progressive() {
     ?>
     <label for="do-progressive">
         <input type="checkbox" name="imgcs_theme_options[do_progressive]" id="do-progressive" <?php checked( 'on', $options['do_progressive'] ); ?> />
-        <?php _e( 'Save as progressive JPGs', 'imgcs' ); ?>
+        <?php _e( 'Convert to progressive JPGs', 'imgcs' ); ?>
     </label>
     <?php
 }
