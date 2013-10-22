@@ -2,16 +2,19 @@
 
 /* ======================================================================
 
-    Plugin Name: Image Compress & Sharpen
-    Plugin URI: http://github.com/cferdinandi/image-compress-and-sharpen
-    Description: Change the default WordPress compression rate for JPGs, and optionally sharpen images.
-    Version: 1.0
-    Author: Chris Ferdinandi
-    Author URI: http://gomakethings.com
-    License: MIT
+	Plugin Name: Image Compress & Sharpen
+	Plugin URI: http://github.com/cferdinandi/image-compress-and-sharpen
+	Description: Change the default WordPress compression rate for JPGs, and optionally sharpen images.
+	Version: 1.0
+	Author: Chris Ferdinandi
+	Author URI: http://gomakethings.com
+	License: GPL v3
 
-    Forked from the Sharpen Resized Images plugin.
-    http://unsalkorkmaz.com/ajx-sharpen-resized-images/
+	Progressive JPG functionality added by James Foster.
+	http://exisweb.net/
+
+	Forked from the Sharpen Resized Images plugin.
+	http://unsalkorkmaz.com/ajx-sharpen-resized-images/
 
  * ====================================================================== */
 
