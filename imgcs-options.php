@@ -21,12 +21,22 @@ function imgcs_settings_field_compression_rate() {
     <?php
 }
 
+function imgcs_settings_field_do_progressive() {
+    $options = imgcs_get_theme_options();
+    ?>
+    <label for="do-progressive">
+        <input type="checkbox" name="imgcs_theme_options[do_progressive]" id="do-progressive" <?php checked( 'on', $options['do_progressive'] ); ?> />
+        <?php _e( 'Save as progressive JPGs', 'imgcs' ); ?>
+    </label>
+    <?php
+}
+
 function imgcs_settings_field_do_sharpen() {
     $options = imgcs_get_theme_options();
     ?>
     <label for="do-sharpen">
         <input type="checkbox" name="imgcs_theme_options[do_sharpen]" id="do-sharpen" <?php checked( 'on', $options['do_sharpen'] ); ?> />
-        <?php _e( 'Sharpen images?', 'imgcs' ); ?>
+        <?php _e( 'Sharpen images', 'imgcs' ); ?>
     </label>
     <?php
 }
@@ -65,6 +75,7 @@ function imgcs_theme_options_init() {
     // $section - The section of the settings page in which to show the field.
 
     add_settings_field( 'compression_rate', 'Compression Rate', 'imgcs_settings_field_compression_rate', 'imgcs_theme_options', 'general' );
+    add_settings_field( 'do_progressive', 'Progressive JPGs', 'imgcs_settings_field_do_progressive', 'imgcs_theme_options', 'general' );
     add_settings_field( 'do_sharpen', 'Sharpen Images', 'imgcs_settings_field_do_sharpen', 'imgcs_theme_options', 'general' );
 }
 add_action( 'admin_init', 'imgcs_theme_options_init' );
@@ -133,6 +144,7 @@ function imgcs_get_theme_options() {
     $saved = (array) get_option( 'imgcs_theme_options' );
     $defaults = array(
         'compression_rate'     => '',
+        'do_progressive'     => 'off',
         'do_sharpen'     => 'off',
     );
 
@@ -153,6 +165,9 @@ function imgcs_theme_options_validate( $input ) {
     // The sample text input must be safe text with no HTML tags
     if ( isset( $input['compression_rate'] ) && ! empty( $input['compression_rate'] ) && is_numeric( $input['compression_rate'] ) && $input['compression_rate'] >= '0' && $input['compression_rate'] <= '100' )
         $output['compression_rate'] = wp_filter_nohtml_kses( $input['compression_rate'] );
+
+    if ( isset( $input['do_progressive'] ) )
+        $output['do_progressive'] = 'on';
 
     if ( isset( $input['do_sharpen'] ) )
         $output['do_sharpen'] = 'on';
@@ -175,6 +190,16 @@ function imgcs_get_compression_rate() {
         $setting = '70';
     } else {
         $setting = $options['compression_rate'];
+    }
+    return $setting;
+}
+
+function imgcs_get_do_progressive() {
+    $options = imgcs_get_theme_options();
+    if ( $options['do_progressive'] == 'on' ) {
+        $setting = true;
+    } else {
+        $setting = false;
     }
     return $setting;
 }
