@@ -4,8 +4,8 @@
 
 	Plugin Name: Image Compress & Sharpen
 	Plugin URI: http://github.com/cferdinandi/image-compress-and-sharpen
-	Description: Change the default WordPress compression rate for JPGs, and optionally sharpen images.
-	Version: 1.0
+	Description: Change the default WordPress compression rate for JPGs, and optionally sharpen images. Adjust your image compression settings under <a href="options-general.php?page=imgcs_theme_options">Settings &rarr; Image Compression</a>.
+	Version: 1.2
 	Author: Chris Ferdinandi
 	Author URI: http://gomakethings.com
 	License: GPL v3

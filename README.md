@@ -7,6 +7,8 @@ Getting started with Image Compress & Sharpen is really easy. [View the tutorial
 
 
 ## Changelog
+* v1.2 (October 31, 2013)
+  * Added a link to settings from plugin menu.
 * v1.1 (October 22, 2013)
   * Added "Save as progressive JPG" option.
 * v1.0 (October 10, 2013)
