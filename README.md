@@ -7,6 +7,8 @@ Getting started with Image Compress & Sharpen is really easy. [View the tutorial
 
 
 ## Changelog
+* v1.3 (December 13, 2013)
+  * Fixed function/variable name that was causing several errors. See [here](https://github.com/cferdinandi/image-compress-and-sharpen/issues/3) and [here](https://github.com/cferdinandi/image-compress-and-sharpen/issues/2).
 * v1.2 (October 31, 2013)
   * Added a link to settings from plugin menu.
 * v1.1 (October 22, 2013)

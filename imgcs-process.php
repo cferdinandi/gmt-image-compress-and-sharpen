@@ -10,7 +10,7 @@
 function imgcs_compress_and_sharpen_img( $resized_file ) {
 
 	// Get user settings
-	$img_quality = imgcs_get_image_quality();
+	$img_compression = imgcs_get_compression_rate();
 	$do_progressive = imgcs_get_do_progressive();
 	$do_sharpen = imgcs_get_do_sharpen();
 
@@ -57,7 +57,7 @@ function imgcs_compress_and_sharpen_img( $resized_file ) {
 			}
 
 			// Compress image
-			imagejpeg($image, $resized_file,apply_filters( 'jpeg_quality', $img_quality, 'edit_image' ));
+			imagejpeg($image, $resized_file,apply_filters( 'jpeg_quality', $img_compression, 'edit_image' ));
 
 			// Return the image
 			break;
