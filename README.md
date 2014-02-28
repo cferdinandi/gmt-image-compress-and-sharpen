@@ -1,21 +1,41 @@
 # Image Compress & Sharpen
-Change the default WordPress compression rate for JPGs, and optionally sharpen images. Progressive JPG functionality added by [James Foster](http://exisweb.net). Forked from the [Sharpen Resized Images plugin](http://wordpress.org/plugins/sharpen-resized-images/).
+
+Change the default WordPress compression rate for JPGs, convert images to progressive JPGs, and sharpen images.
+
+Improve the performance of your website. Change the default WordPress compression rate for JPGs, convert images to progressive JPGs **(new)**, and sharpen images. Forked from the [Sharpen Resized Images plugin](http://wordpress.org/plugins/sharpen-resized-images/).
+
+**In This Documentation**
+
+1. [Getting Started](#getting-started)
+2. [License](#license)
+3. [Changelog](#changelog)
 
 
-## How It Works
-Getting started with Image Compress & Sharpen is really easy. [View the tutorial.](http://cferdinandi.github.io/image-compress-and-sharpen/)
 
+## Getting Started
 
-## Changelog
-* v1.3 (December 13, 2013)
-  * Fixed function/variable name that was causing several errors. See [here](https://github.com/cferdinandi/image-compress-and-sharpen/issues/3) and [here](https://github.com/cferdinandi/image-compress-and-sharpen/issues/2).
-* v1.2 (October 31, 2013)
-  * Added a link to settings from plugin menu.
-* v1.1 (October 22, 2013)
-  * Added "Save as progressive JPG" option.
-* v1.0 (October 10, 2013)
-  * Initial release.
+Getting started with Image Compress & Sharpen is as simple as installing a plugin:
+
+1. Upload the `image-compress-and-sharpen` folder to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the Plugins menu in WordPress.
+
+And that's it, you're done. Nice work! You can adjust the default compression rate and activate progressive JPGs and image sharpening under "Settings" in the Admin Dashboard.
+
 
 
 ## License
-Image Compress & Sharpen is free to use under [GPL v3](http://www.gnu.org/copyleft/gpl.html).
+
+Image Compress & Sharpen is licensed under the [MIT License](http://gomakethings.com/mit/).
+
+
+
+## Changelog
+
+* v1.3 - December 13, 2013
+	* Fixed function/variable name that was causing several errors. See [here](https://github.com/cferdinandi/image-compress-and-sharpen/issues/3) and [here](https://github.com/cferdinandi/image-compress-and-sharpen/issues/2).
+* v1.2 - October 31, 2013
+	* Added a link to settings from plugin menu.
+* v1.1 - October 22, 2013
+	* Added "Save as progressive JPG" option.
+* v1.0 - October 10, 2013
+	* Initial release.
