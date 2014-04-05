@@ -4,6 +4,8 @@ Change the default WordPress compression rate for JPGs, convert images to progre
 
 Improve the performance of your website. Change the default WordPress compression rate for JPGs, convert images to progressive JPGs **(new)**, and sharpen images. Forked from the [Sharpen Resized Images plugin](http://wordpress.org/plugins/sharpen-resized-images/).
 
+[Download Image Compress & Sharpen](https://github.com/cferdinandi/image-compress-and-sharpen/archive/master.zip)
+
 **In This Documentation**
 
 1. [Getting Started](#getting-started)
