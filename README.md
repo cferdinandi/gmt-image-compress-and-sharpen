@@ -40,11 +40,13 @@ Image Compress & Sharpen is licensed under the [MIT License](http://gomakethings
 
 ## Changelog
 
-* v1.3 - December 13, 2013
+Image Compress & Sharpen uses [semantic versioning](http://semver.org/).
+
+* v1.3.0 - December 13, 2013
 	* Fixed function/variable name that was causing several errors. See [here](https://github.com/cferdinandi/image-compress-and-sharpen/issues/3) and [here](https://github.com/cferdinandi/image-compress-and-sharpen/issues/2).
-* v1.2 - October 31, 2013
+* v1.2.0 - October 31, 2013
 	* Added a link to settings from plugin menu.
-* v1.1 - October 22, 2013
+* v1.1.0 - October 22, 2013
 	* Added "Save as progressive JPG" option.
-* v1.0 - October 10, 2013
+* v1.0.0 - October 10, 2013
 	* Initial release.
