@@ -6,12 +6,6 @@ Improve the performance of your website. Change the default WordPress compressio
 
 [Download Image Compress & Sharpen](https://github.com/cferdinandi/image-compress-and-sharpen/archive/master.zip)
 
-**In This Documentation**
-
-1. [Getting Started](#getting-started)
-2. [How to Contribute](#how-to-contribute)
-3. [License](#license)
-
 
 
 ## Getting Started
@@ -23,11 +17,13 @@ Getting started with Image Compress & Sharpen is as simple as installing a plugi
 
 And that's it, you're done. Nice work! You can adjust the default compression rate and activate progressive JPGs and image sharpening under "Settings" in the Admin Dashboard.
 
+It's recommended that you also install the [GitHub Updater plugin](https://github.com/afragen/github-updater) to get automattic updates.
+
 
 
 ## How to Contribute
 
-In lieu of a formal style guide, take care to maintain the existing coding style. Please apply fixes to both the development and production code. Don't forget to update the version number, and when applicable, the documentation.
+Please read the [Contribution Guidelines](CONTRIBUTING.md).
 
 
 
