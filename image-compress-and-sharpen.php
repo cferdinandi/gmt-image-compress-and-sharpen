@@ -2,10 +2,10 @@
 
 /**
  * Plugin Name: GMT Image Compress & Sharpen
- * Plugin URI: http://github.com/cferdinandi/image-compress-and-sharpen
- * GitHub Plugin URI: http://github.com/cferdinandi/image-compress-and-sharpen
+ * Plugin URI: http://github.com/cferdinandi/gmt-image-compress-and-sharpen
+ * GitHub Plugin URI: http://github.com/cferdinandi/gmt-image-compress-and-sharpen
  * Description: Change the default WordPress compression rate for JPGs, and optionally sharpen images. Adjust your image compression settings under <a href="options-general.php?page=imgcs_theme_options">Settings &rarr; Image Compression</a>.
- * Version: 1.3.0
+ * Version: 1.3.1
  * Author: Chris Ferdinandi
  * Author URI: http://gomakethings.com
  * License: GPL v3
